@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.Restwell" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personalize seu tema principal aqui -->
+    </style>
 
-    <style name="Theme.Restwell" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Restwell.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
 </resources>
